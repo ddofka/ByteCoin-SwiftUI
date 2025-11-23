@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79962EF62ED3A3080065AC5E /* CryptoPriceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79962EF52ED3A3080065AC5E /* CryptoPriceModel.swift */; };
+		79962EF82ED3A3740065AC5E /* CoinMarketCapResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79962EF72ED3A3740065AC5E /* CoinMarketCapResponse.swift */; };
+		79962EFE2ED3B4BA0065AC5E /* Secret.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79962EFD2ED3B4BA0065AC5E /* Secret.plist */; };
 		ADA8AC092329367100626376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC082329367100626376 /* AppDelegate.swift */; };
 		ADA8AC0B2329367100626376 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC0A2329367100626376 /* SceneDelegate.swift */; };
 		ADA8AC0D2329367100626376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC0C2329367100626376 /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79962EF52ED3A3080065AC5E /* CryptoPriceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPriceModel.swift; sourceTree = "<group>"; };
+		79962EF72ED3A3740065AC5E /* CoinMarketCapResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarketCapResponse.swift; sourceTree = "<group>"; };
+		79962EFD2ED3B4BA0065AC5E /* Secret.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secret.plist; sourceTree = "<group>"; };
 		ADA8AC052329367100626376 /* ByteCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByteCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA8AC082329367100626376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADA8AC0A2329367100626376 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +72,7 @@
 				ADA8AC112329367300626376 /* Assets.xcassets */,
 				ADA8AC132329367300626376 /* LaunchScreen.storyboard */,
 				ADA8AC162329367300626376 /* Info.plist */,
+				79962EFD2ED3B4BA0065AC5E /* Secret.plist */,
 			);
 			path = ByteCoin;
 			sourceTree = "<group>";
@@ -90,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				ADA8AC1F2329398300626376 /* CoinManager.swift */,
+				79962EF52ED3A3080065AC5E /* CryptoPriceModel.swift */,
+				79962EF72ED3A3740065AC5E /* CoinMarketCapResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -152,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79962EFE2ED3B4BA0065AC5E /* Secret.plist in Resources */,
 				ADA8AC152329367300626376 /* LaunchScreen.storyboard in Resources */,
 				ADA8AC122329367300626376 /* Assets.xcassets in Resources */,
 				ADA8AC102329367100626376 /* Main.storyboard in Resources */,
@@ -165,7 +175,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79962EF82ED3A3740065AC5E /* CoinMarketCapResponse.swift in Sources */,
 				ADA8AC202329398300626376 /* CoinManager.swift in Sources */,
+				79962EF62ED3A3080065AC5E /* CryptoPriceModel.swift in Sources */,
 				ADA8AC0D2329367100626376 /* ViewController.swift in Sources */,
 				ADA8AC092329367100626376 /* AppDelegate.swift in Sources */,
 				ADA8AC0B2329367100626376 /* SceneDelegate.swift in Sources */,

@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+struct CryptoPriceModel {
+    let symbol: String
+    let name: String
+    let price: Double
+    
+    var priceString: String {
+        String(format: "%.2f", price)
+    }
+}
